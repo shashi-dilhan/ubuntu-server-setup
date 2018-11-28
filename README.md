@@ -2,7 +2,7 @@
 
 Documentation explains you how to setup a Ubuntu server step by step with Apache, php, mysql etc.
 
-## Installin process
+## Installing process
 
 ### Pre-Requisites
 
