@@ -52,6 +52,19 @@ Sample codes
     
     $ GRANT INSERT, SELECT, UPDATE, DELETE, EXECUTE ON radicalzblog.* TO 'radicalzbloguser'@'localhost' IDENTIFIED BY 'radicalzblog@user';
     
+## Install phpmyadmin interface
+
+    $ sudo apt-get install phpmyadmin
+
+after installing phpmy admin :
+open the file and 
+nano /etc/apache2/apache2.conf
+
+Add the following to the bottom of the file:
+
+phpMyAdmin Configuration
+Include /etc/phpmyadmin/apache.conf
+    
     
 
 
