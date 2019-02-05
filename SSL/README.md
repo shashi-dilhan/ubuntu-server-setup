@@ -8,7 +8,7 @@
 
 ### Add domain
 
-    $ sudo certbot --apache -d clickdo.co.uk -d www.yourdomain.com
+    $ sudo certbot --apache -d yourdomain.com -d www.yourdomain.com
 
 ### Check SSL certificate
 
