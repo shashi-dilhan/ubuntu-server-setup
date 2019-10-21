@@ -13,3 +13,8 @@
 ### Check SSL certificate
 
     https://www.ssllabs.com/ssltest/
+    
+
+# Change domain
+
+    certbot -d example.net -d www.example.net --force-renewal
